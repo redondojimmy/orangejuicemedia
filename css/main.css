@@ -1,0 +1,256 @@
+nav {
+	background: #FA48E2;
+	height: 60px;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 100;
+}
+nav > a {
+	color:  #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 26px;
+	font-weight: 800;
+	left: 25px;
+	position: absolute;
+	text-align: left;
+	text-decoration: none;
+	top: 10px;
+}
+a > span {
+	font-family: 'Lato', sans-serif;
+	color:  #cfc91d;
+	text-align: left;
+	font-weight: 200;
+}
+nav ul {
+	position: absolute;
+	right: 25px;
+	top:5px;
+}
+nav li {
+	display: inline-block;
+	padding:0 15px;
+}
+nav li > a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav li > a:hover,
+nav li > a:focus {
+	color: blue;
+}
+header {
+	background-color: #2B7A17;
+	margin-top: 60px;
+	height: 15px;
+}
+.n {
+	color: #2B7A17
+}
+.one {
+	background-color: #fff;
+	 margin: 0 auto;
+	 width: 100%;
+	 height: 640px;
+}
+img {
+	height: 550px;
+	width: 550px;
+	padding: 0 10px 50px 75px;
+	position: absolute;
+}
+.block1 {
+	float: left;
+	margin: 3% 0;
+	padding-left: 0px;
+	padding-bottom: 100px;
+	width: 48%;
+}
+.block2 {
+	float: left;
+	margin: 0 auto;
+	padding: 0 0 70px 20px;
+	width: 45%;
+}
+.search-box-wrapper {
+display: inline-flex;
+font-size: 15px;
+height: 50px;
+float: right;
+padding-right: 30px;
+padding-top: 3px;
+width: 20%;
+}
+.search-box-input {
+font-size: inherit;
+border: 0.2em solid #ddd;
+padding-left: 6px;
+background-color: lightgrey;
+border-color: lightgrey;
+
+}
+.search-box-button {
+	font-size: inherit;
+	border: none;
+	background-color: lightgrey;
+	width: 20%;
+
+}
+i {
+	color: grey;
+}
+p {
+	margin: 0 auto;
+	padding-left: 19px;
+    padding-top: 170px;
+		padding-bottom: 20px;
+    font-size: 45px;
+		color: #14dbe5;
+}
+sup {
+	font-size: 20px;
+}
+p span,
+span.web {
+	color: #FA48E2;
+}
+span.web2 {
+	color: #2B7A17
+}
+.footer {
+	width: 100%;
+	background-color: #2B7A17;
+	height: 80px;
+}
+button.quote {
+	background-color: #FA48E2;
+	    border: none;
+	    color: white;
+	    padding: 15px 32px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    font-size: 16px;
+	    margin: 20px 20px 0 60px;
+	    cursor: pointer;
+
+}
+button.case {
+	background-color: #2B7A17;
+			border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px 0 20px;
+			cursor: pointer;
+}
+			@media (max-width: 1300px) {
+			  div.block2 p {
+			    font-size: 25px;
+					text-align: center;
+					margin-top: 10px;
+					padding-top: 50px;
+					padding-bottom: 50px;
+				}
+			  }
+				@media (max-width: 600px) {
+					div.block2 p {
+						font-size: 20px;
+						text-align: center;
+						margin-top: 10px;
+						padding-top: 50px;
+					}
+				}
+					@media (max-width: 1300px) {
+					  .one div.block1 img {
+							height: 250px;
+							width: 250px;
+							position: relative;
+							padding: 0 10px 50px 20px;
+						}
+					}
+					@media (max-width: 1300px) {
+					  nav {
+							font-size: 10px;
+							height: 40px;
+						}
+					}
+					@media (max-width: 1300px) {
+					  nav a sup{
+							font-size: 10px;
+						}
+					}
+					@media (max-width: 1300px) {
+						nav a {
+							font-size: 10px;
+						}
+					}
+					@media (max-width: 1300px) {
+						header {
+							margin-top: 40px;
+						}
+					}
+					@media (max-width: 470px) {
+					  nav li {
+							padding: 10px 5px 0 5px;
+						}
+					}
+					@media (max-width: 1300px) {
+						div.search-box-wrapper {
+							height: 20px;
+							width: 40%;
+							font-size: 15px;
+							padding-top: 40px;
+							margin-top: 100px;
+						}
+					}
+					@media (max-width: 600px) {
+						button.quote {
+							background-color: #FA48E2;
+							    border: none;
+							    color: white;
+							    padding: 15px 32px;
+							    text-align: center;
+							    text-decoration: none;
+							    display: inline-block;
+							    font-size: 10px;
+							    margin: 50px 10px 0 40px;
+							    cursor: pointer;
+						}
+					}
+					@media (max-width: 600px) {
+						button.case {
+							background-color: #2B7A17;
+							    border: none;
+							    color: white;
+							    padding: 15px 32px;
+							    text-align: center;
+							    text-decoration: none;
+							    display: inline-block;
+							    font-size: 10px;
+							    margin: 50px 10px 0 40px;
+							    cursor: pointer;
+						}
+					}
+					@media (max-width: 1300px) {
+						.one {
+							height: 525px;
+							padding-bottom: 40px;
+						}
+					}
+					@media (max-width: 1300px) {
+						.footer {
+							height: 100px;
+						}
+					}
+					@media (max-width: 1300px) {
+						section.one {
+							padding-top: 200px;
+						}
+					}
